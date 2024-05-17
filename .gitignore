@@ -1,6 +1,8 @@
 # ignore all files starting with . or ~
 .*
 ~*
+index.md
+_config.yml
 
 # ignore node/grunt dependency directories
 node_modules/
