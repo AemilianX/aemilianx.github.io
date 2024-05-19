@@ -1,86 +1,40 @@
 <!DOCTYPE html>
-<!-- Author Aemilian
-  Date 24/04/2024
-  Version -->
+<!-- 
+UserName
+ProjectDate
+ProjectNumber
+BioName
+Google Drive Link ?? Line 49
+Share Link ?? line 52
+USERNAME  (upper)
+BIONAME  (upper)
+ -->
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Aemilian Bio IDLE</title>
+    <title>UserName's Bio</title>
     <link rel="icon" type="image/x-icon" href="https://static-assets.highwebmedia.com/favicons/favicon.ico">
-    <link rel="stylesheet" href="https://aemilianx.github.io/css/bionormalisation.css" type="text/css">
-    <link rel="stylesheet" href="https://aemilianx.github.io/css/biostylesheet.css" type="text/css">
+    <link rel="stylesheet" href="../css/normalisation.css" type="text/css">
+    <link rel="stylesheet" href="../css/stylesheet.css" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700&display=swap">
-    <script src="https://aemilianx.github.io/javascript/biojavascript.js"></script>
-    <script>
-      function init() {
-        if (localStorage.getItem("theme") === "light") {
-          document.body.classList.add("light-theme");
-        }
-        /** =====================================================================
-         *
-         * Edit to Project Requirements
-         *
-         ***/
-        sUserName = 'akSolomonKane'; // the models user name
-        const sDate = 'Jan 1 2000'; // commencement date of the project
-        const sBioName = 'Aemilian'; // the real name on bio
-        const nProjectVer = 1; // project version
-        const sOneDrive = 'https://drive.google.com/drive/'; // models google drive folder link
-        const sShareLink = 'https://drive.google.com/drive/'; // models google drive share link
-        /**
-         * Do not edit any further
-         *
-         * =====================================================================
-         ***/
-        $('header2ID').innerHTML = `${sUserName}'s Bio
-                      <sup>Ver.${nProjectVer}</sup>`;
-        $('dateID').innerHTML = sDate;
-        $('bioHeaderID').innerHTML = `${sUserName}'s Bio and Free Webcam`;
-        $('bioNameID').innerHTML = sBioName;
-        if (sUserName === 'akSolomonKane') {
-          const version = getVersion();
-          document.title = `Bio IDLE Ver ${version}`;
-        } else {
-          document.title = `${sUserName} Bio Ver ${nProjectVer}`;
-          $('modelRoom').href = `https://chaturbate.com/${sUserName}/`;
-          $('modelRoom').title = `Open ${sUserName}'s Room`;
-          let upper = sUserName.toUpperCase();
-          $('modelRoom').innerHTML = `${upper} ROOM`;
-          upper = sBioName.toUpperCase();
-          _('a')[5].innerHTML = `${upper} DRIVE`;
-          _('a')[5].title = `Open ${sBioName} Google Drive Folder`;
-          _('a')[5].href = sOneDrive;
-          _('a')[6].href = sShareLink;
-          _('a')[6].title = `Open ${sBioName} Google Share Link`;
-        }
-      }
-      
-      function getVersion() { return 13; }
-
-      function $(id) { return document.getElementById(id); }
-
-      function _(id) { return document.getElementsByTagName(id); }
-      
-      /*global document */
-      window.sUserName;
-    </script>
+    <script src="../javascript/javascript.js"></script>
   </head>
-  <body onload="init()">
+  <body onload="'light'===localStorage.getItem('theme')&&document.body.classList.add('light-theme')">
     <header>
       <div id="headerDiv">
         <h1 id="head1ID" title="IDLE (Integrated Development Environment)"> Aemilian's Bio Tab IDLE <sup>Ver.2.9</sup>
         </h1>
-        <h2 Id="header2ID">Crazy__Women <sup>June 10 2019</sup>
+        <h2 Id="header2ID">UserName's Bio<sup>Ver.ProjectNumber</sup>
         </h2>
-        <h3 id="dateID">Nov 31 2018</h3>
+        <h3 id="dateID">ProjectDate</h3>
       </div>
       <div id="banner">
         <nav id="nav">
-          <span title="Open the Chaturbate Website" class="navPadding">
-            <a href="https://chaturbate.com/" target="_blank" id="modelRoom" class="anchorUnderLineTop">CHATURBATE</a>
+          <span title="Open UserName's Room" class="navPadding">
+            <a href="https://chaturbate.com/UserName" target="_blank" id="modelRoom" class="anchorUnderLineTop">USERNAME ROOM</a>
           </span>
           <span title="Open Aemilian's Room" class="navPadding">
             <a href="https://chaturbate.com/aksolomonkane/" target="_blank" class="anchorUnderLineTop">AEMILIAN ROOM</a>
@@ -94,11 +48,11 @@
           <span title="Open HTML Beautifier" class="navPadding">
             <a href="https://codebeautify.org/htmlviewer#" target="_blank" class="anchorUnderLineTop">MINIFIER</a>
           </span>
-          <span title="Open Model Google Drive Folder" class="navPadding">
-            <a href="https://drive.google.com/drive/my-drive" target="_blank" class="anchorUnderLineTop">MODEL DRIVE</a>
+          <span title="Open BioName Google Drive Folder/OneDriveFolder" class="navPadding">
+            <a href="https://drive.google.com/drive/my-drive" target="_blank" class="anchorUnderLineTop">BIONAME DRIVE</a>
           </span>
-          <span title="Open Model Google Share Link" class="navPadding">
-            <a href="https://drive.google.com" target="_blank" class="anchorUnderLineTop">SHARE LINK</a>
+          <span title="Open BioName Google Share Link" class="navPadding">
+            <a href="https://drive.google.com/SharLink" target="_blank" class="anchorUnderLineTop">SHARE LINK</a>
           </span>
         </nav>
       </div>
@@ -145,14 +99,14 @@
               <tr id="tableHeaderRow">
                 <th colspan="2" id="bioHeader">
                   <span>
-                    <span id="bioHeaderID">BestyLika's Bio and Free Webcam</span>
+                    <span id="bioHeaderID">UserName's Bio and Free Webcam</span>
                     <span id="promoteButton" onclick="MsgBoxPromote(`\n    Promote ${sUserName} Room?\n`)" style="display:none;">PROMOTE</span>
                   </span>
                 </th>
               </tr>
               <tr>
                 <td class="label">Real Name:</td>
-                <td class="contentText" id="bioNameID">Nika</td>
+                <td class="contentText" id="bioNameID">BioName</td>
               </tr>
               <tr>
                 <td class="label">Followers:</td>
@@ -238,12 +192,12 @@
                 <td class="label">Videos:</td>
                 <td class="contentText">
                   <a class="mediaAnchor" title="Cute">
-                    <img class="mediaImage" src="https://aemilianx.github.io/images/svg/video-a.svg" alt="cute">
+                    <img class="mediaImage" src="../images/svg/video-a.svg" alt="cute">
                     <img src="https://web.static.mmcdn.com/tsdefaultassets/video.svg" alt="video" class="videoIcon">
                     <div class="mediaDescription">Cute</div>
                   </a>
                   <a class="mediaAnchor" title="My Sixth day">
-                    <img class="mediaImage" src="https://aemilianx.github.io/images/svg/video-b.svg" alt="my Sixth day">
+                    <img class="mediaImage" src="../images/svg/video-b.svg" alt="my Sixth day">
                     <img src="https://web.static.mmcdn.com/tsdefaultassets/video.svg" alt="video" class="videoIcon">
                     <div class="mediaDescription">My Sixth day</div>
                   </a>
@@ -254,28 +208,28 @@
                 <td class="label">Pictures:</td>
                 <td class="contentText">
                   <a class="mediaAnchor" title="Hot Photos">
-                    <img class="mediaImage" src="https://aemilianx.github.io/images/svg/picture-a.svg" alt="hot">
+                    <img class="mediaImage" src="../images/svg/picture-a.svg" alt="hot">
                     <div class="lockedDiv"></div>
                     <img src="https://web.static.mmcdn.com/tsdefaultassets/lock.svg" alt="lock" class="lockImage">
                     <span class="mediaTokens mediaTokensGreen">50 TOKENS OR FAN CLUB</span>
                     <div class="mediaDescription">Hot Photos</div>
                   </a>
                   <a class="mediaAnchor" title="Cute photos">
-                    <img class="mediaImage" src="https://aemilianx.github.io/images/svg/picture-b.svg" alt="cute">
+                    <img class="mediaImage" src="../images/svg/picture-b.svg" alt="cute">
                     <div class="lockedDiv"></div>
                     <img src="https://web.static.mmcdn.com/tsdefaultassets/lock.svg" alt="lock" class="lockImage">
                     <span class="mediaTokens mediaTokensBlue">33 TOKENS</span>
                     <div class="mediaDescription">Cute photos</div>
                   </a>
                   <a class="mediaAnchor" title="Fan album">
-                    <img class="mediaImage" src="https://aemilianx.github.io/images/svg/picture-c.svg" alt="fan album">
+                    <img class="mediaImage" src="../images/svg/picture-c.svg" alt="fan album">
                     <div class="lockedDiv"></div>
                     <img src="https://web.static.mmcdn.com/tsdefaultassets/lock.svg" alt="lock" class="lockImage">
                     <span class="mediaTokens mediaTokensGreen">FAN CLUB EXCLUSIVE</span>
                     <div class="mediaDescription">Fan album</div>
                   </a>
                   <a class="mediaAnchor" title="My first photos">
-                    <img class="mediaImage" src="https://aemilianx.github.io/images/svg/picture-d.svg" alt="photos">
+                    <img class="mediaImage" src="../images/svg/picture-d.svg" alt="photos">
                     <div class="mediaDescription">My first photos</div>
                   </a>
                   <div class="mediaPadding"></div>
@@ -308,7 +262,7 @@
 
                         <!-- BIO ENDS HERE -->
                       </li>
-					  <!-- FREE USE REQUIRES ATTRITION -->
+                      <!-- FREE USE REQUIRES ATTRITION -->
                       <li style="position: relative; bottom: 50px; float: right; margin-right: 10%;">
                         <a href="https://chaturbate.com/aksolomonkane/" target="_blank" style="color: #a79c9c;
                         font-family: baskerville, baskerville old face, garamond, times new roman, serif;
@@ -331,22 +285,18 @@
                       font-family: UbuntuRegular, Arial, Helvetica, sans-serif;
                       font-family: UbuntuLight, Arial, Helvetica, sans-serif;
                     Only inline CSS supported -->
-
                     <!-- =============== SWAP ORDER LIST TAG ON MINIFY FROM TEMP CLASS BELOW TO INLINE CSS + DEFAULT CONTAINER DO NOT EDIT =============== -->
                     <!-- <ol style="margin: 0 0 0 -137px; list-style: none; padding: 0px; padding-top: 1em;"> -->
                     <ol class="tempIDLE" style="padding-top: 1em;">
                       <!-- =============== SWAP ORDER LIST TAG ON MINIFY FROM TEMP CLASS ABOVE TO INLINE CSS + DEFAULT CONTAINER DO NOT EDIT =============== -->
-
                       <!-- INLINE EDITS TO LIST ITEM IS OK -->
                       <li style="width:auto;">
-
                         <!-- START BIO HERE -->
                         <!-- DELETE THIS PLACEHOLDER TODO PARAGRAPH TAG -->
                         <p style="margin: 0 auto 48px; color: inherit; padding-left:137px;"> To Do </p>
-
                         <!-- BIO ENDS HERE -->
                       </li>
-					  <!-- FREE USE REQUIRES ATTRITION -->
+                      <!-- FREE USE REQUIRES ATTRITION -->
                       <li style="position: relative; bottom: 50px; float: right; margin-right: 10%;">
                         <a href="https://chaturbate.com/aksolomonkane/" target="_blank" style="color: #a79c9c;
                         font-family: baskerville, baskerville old face, garamond, times new roman, serif;

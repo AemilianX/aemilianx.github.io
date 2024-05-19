@@ -13,7 +13,6 @@ body {
   --dmContainerHoverColor: #885336;
   --dmSwitchContainerColor: #f4771f;
   --dmBallPosition: 25px;
-  --dmBallTranistion: right 100ms ease 0s;
   --offLineContainerColor: #17202a;
   --OffLineTextColor: #68b5f0;
   --tabBarBackColor: #17202a;
@@ -42,7 +41,6 @@ body.light-theme {
   --dmContainerHoverColor: #042e41;
   --dmSwitchContainerColor: #474747;
   --dmBallPosition: 3px;
-  --dmBallTranistion: left 100ms ease 0s;
   --offLineContainerColor: #e0e0e0;
   --OffLineTextColor: #0b5d81;
   --tabBarBackColor: #7f7f7f;
@@ -305,7 +303,7 @@ tr {
   position: relative;
   top: 2px;
   left: var(--dmBallPosition);
-  transition: var(--dmBallTranistion);
+  transition: 0.5s;
   background-color: whitesmoke;
 }
 
