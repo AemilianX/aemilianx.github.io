@@ -167,7 +167,8 @@ tr {
 }
 
 .anchorUnderLineTop {
-    color: #fff;
+  text-transform: uppercase;
+  color: #fff;
 }
 
 .anchorUnderLineTop:hover {
@@ -565,6 +566,7 @@ tr {
   color: #68B5F0;
   border-color: #68B5F0;
   display: inline-block;
+  text-transform: uppercase;
 }
 
 .label {

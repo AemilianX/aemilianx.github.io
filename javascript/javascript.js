@@ -11,12 +11,12 @@ function returnToTop() {
     });
 }
 
-function MsgBoxPromote(text) {
+function MsgBoxPromote(userName) {
     'use strict';
-    if (window.confirm(text)) {
-        window.alert(`\n${sUserName} Room is promoted`);
+    if (window.confirm(`\n    Promote ${userName} Room?\n`)) {
+        window.alert(`\n${userName} Room is promoted`);
     } else {
-        window.alert(`\n${sUserName} Room is not promoted`);
+        window.alert(`\n${userName} Room is not promoted`);
     }
 }
 
