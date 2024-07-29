@@ -514,6 +514,7 @@ tr {
   border-style: solid;
   border-top: none;
   width: calc(100% - 10px);
+  z-index: 0;
 }
 
 #tableDiv {
