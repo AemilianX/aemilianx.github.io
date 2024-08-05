@@ -13,7 +13,7 @@ Version 14 -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700&display=swap">
-    <script src="../javascript/javascript.js"></script>
+    <script src="../js/javascript.js"></script>
     <script>
       function init() {
         if (localStorage.getItem("theme") === "light") {
@@ -57,15 +57,6 @@ Version 14 -->
           _('a')[6].title = `Open ${sBioName} Google Share Link`;
         }
       }
-      
-      function getVersion() { return 14; }
-
-      function $(id) { return document.getElementById(id); }
-
-      function _(id) { return document.getElementsByTagName(id); }
-      
-      /*global document */
-      window.sUserName;
     </script>
   </head>
   <body onload="init()">
