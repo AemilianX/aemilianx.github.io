@@ -1,3 +1,6 @@
+/*global document */
+/*global window */
+
 function returnToTop() {
     'use strict';
     window.scrollTo({
@@ -27,12 +30,19 @@ function dmOnClick() {
     localStorage.setItem("theme", theme);
 }
 
-function getVersion() { return 14; }
+function getVersion() {
+    'use strict';
+    return 15;
+}
 
-function $(id) { return document.getElementById(id); }
+function $(id) {
+    'use strict';
+    return document.getElementById(id);
+}
 
-function _(id) { return document.getElementsByTagName(id); }
+function _(id) {
+    'use strict';
+    return document.getElementsByTagName(id);
+}
 
-/*global document */
-/*global window */
 window.sUserName;
