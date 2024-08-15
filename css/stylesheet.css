@@ -24,6 +24,9 @@ body {
   --voteScoreBackColor: #202c39;
   --voteScoreTextColor: #68b5f0;
   --voteScoreTextShadow: none;
+  --srcollbarThumb: #3b3836;
+  --scrollbarInset: #808080;
+
 }
 
 body.light-theme {
@@ -52,6 +55,28 @@ body.light-theme {
   --voteScoreBackColor: #bbbbbb;
   --voteScoreTextColor: #0a5a83;
   --voteScoreTextShadow: #94d2e6 1px 1px 0px;
+  --srcollbarThumb: #817974;
+  --scrollbarInset: #000000;
+
+}
+
+/* width */
+::-webkit-scrollbar {
+      width: 20px;
+   }
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px var(--scrollbarInset);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--srcollbarThumb);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
 body {
