@@ -53,6 +53,7 @@ Thumbs.db
 *.der
 *.key
 *.pem
+*.cmd
 
 # --------------------------------------------------------
 # BEGIN Explictly Allowed Files (i.e. do NOT ignore these)

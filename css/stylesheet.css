@@ -1,3 +1,5 @@
+/*=============== LIGHT DARK MODE ==============================*/
+
 body {
   --textColor: #ffffff;
   --backColorDefault: #17202a;
@@ -26,7 +28,6 @@ body {
   --voteScoreTextShadow: none;
   --srcollbarThumb: #3b3836;
   --scrollbarInset: #808080;
-
 }
 
 body.light-theme {
@@ -57,18 +58,22 @@ body.light-theme {
   --voteScoreTextShadow: #94d2e6 1px 1px 0px;
   --srcollbarThumb: #817974;
   --scrollbarInset: #000000;
-
 }
+
+/*=============== SCROLLBAR SECTION ==============================*/
 
 /* width */
 ::-webkit-scrollbar {
-      width: 20px;
-   }
+  width: 20px;
+}
+
+/* Track */
 ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 5px var(--scrollbarInset);
   border-radius: 10px;
 }
 
+/* Handle */
 ::-webkit-scrollbar-thumb {
   background: var(--srcollbarThumb);
   border-radius: 10px;
@@ -78,6 +83,8 @@ body.light-theme {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+/*=============== DOCUMENT BODY ==============================*/
 
 body {
   display: block;
@@ -115,7 +122,7 @@ footer {
   border-top-color: var(--borderFooterThickColor);
   background-color: var(--backColorDefault);
   background-image: var(--backImageBottom);
-  background-size:cover;
+  background-size: cover;
   text-align: center;
 }
 
@@ -149,7 +156,7 @@ tr {
 }
 
 #head1ID {
-  font-size:34px;
+  font-size: 34px;
   margin: 0 0 22px;
   padding-top: 22px;
   line-height: 1;
@@ -237,7 +244,7 @@ tr {
 }
 
 #footerNav {
-  padding:0px 50px 50px;
+  padding: 0px 50px 50px;
   display: inline-block;
   font-size: 16px;
   font-weight: 300;
@@ -250,12 +257,12 @@ tr {
 #aemilianDiv {
   width: auto;
   height: 100px;
-  font-family: 'Alex Brush', cursive;
+  font-family: "Alex Brush", cursive;
   font-size: 32px;
 }
 
 #license {
-  float:left;
+  float: left;
   position: relative;
   left: 55px;
   bottom: -33px;
@@ -358,8 +365,8 @@ tr {
   border-width: 1px;
   border-style: solid;
   background-color: #009900;
-  color: #FFFFFF;
-  border: 1px solid #288A09;
+  color: #ffffff;
+  border: 1px solid #288a09;
   border-radius: 4px;
 }
 
@@ -468,12 +475,11 @@ tr {
   vertical-align: top;
 }
 
-#highPercent{
+#highPercent {
   margin: 0px 3px;
   vertical-align: top;
   display: inline;
-  color: #298A08;
-
+  color: #298a08;
 }
 
 .voteContainer {
@@ -494,21 +500,21 @@ tr {
   vertical-align: top;
   margin: 0px 3px;
   opacity: 0.8;
-
 }
 
-#voteImageDown{
+#voteImageDown {
   height: 15px;
   width: 15px;
   vertical-align: top;
-   margin: 0px 3px;
-   opacity: 0.65;
+  margin: 0px 3px;
+  opacity: 0.65;
 }
 
-#tabLinkContainer{
+#tabLinkContainer {
   position: relative;
   overflow: hidden;
-  height: 24px; top: -2px;
+  height: 24px;
+  top: -2px;
   width: fit-content;
 }
 
@@ -589,8 +595,8 @@ tr {
   line-height: 12px;
   cursor: pointer;
   background-color: transparent;
-  color: #68B5F0;
-  border-color: #68B5F0;
+  color: #68b5f0;
+  border-color: #68b5f0;
   display: inline-block;
   text-transform: uppercase;
 }
@@ -623,7 +629,7 @@ tr {
 }
 
 .mediaAnchor:hover {
-  text-decoration: underline;								 
+  text-decoration: underline;
 }
 
 .mediaImage {
@@ -645,7 +651,8 @@ tr {
   height: 101px;
   border-radius: 3%;
   position: absolute;
-  left: 0px; top: 0px;
+  left: 0px;
+  top: 0px;
   background-color: rgba(0, 0, 0, 0.55);
 }
 
@@ -674,10 +681,10 @@ tr {
 }
 
 .mediaTokensGreen {
-    background-color: rgb(0, 153, 0);
+  background-color: rgb(0, 153, 0);
 }
 
-.mediaTokensBlue{
+.mediaTokensBlue {
   background-color: rgb(109, 133, 181);
 }
 
@@ -701,15 +708,15 @@ tr {
   list-style: none;
 }
 
-@media screen and (max-width:1200px) {
+/*=============== RESIZE WINDOW ==============================*/
 
+@media screen and (max-width: 1200px) {
   #BaseRoomContents {
     margin: 12px 1% 17px;
   }
- }
+}
 
 @media screen and (max-width: 1080px) {
-
   table {
     padding-right: 1%;
   }
@@ -724,29 +731,26 @@ tr {
   }
 }
 
- @media screen and (max-width:620px) {
-
+@media screen and (max-width: 620px) {
   #BaseRoomContents {
     margin: 12px 0px 17px;
   }
- }
+}
 
- @media screen and (max-width:600px) {
-
+@media screen and (max-width: 600px) {
   #tableCol {
     width: 25%;
     min-width: 119px;
   }
 }
 
-@media screen and (max-width:600px) {
-
+@media screen and (max-width: 600px) {
   .tempIDLE {
     margin-left: -121px;
   }
 
   #license {
-    float:none;
+    float: none;
     left: unset;
     bottom: unset;
   }
