@@ -39,6 +39,7 @@ notepadSession.xml
 *.exe
 *.o
 *.so
+*.lnk
 
 # ignore packaged files
 *.7z
