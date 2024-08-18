@@ -24,6 +24,7 @@ Thumbs.db
 
 # ignore Editor files
 *.sublime-workspace
+notepadSession.xml
 *.komodoproject
 
 # ignore log files and databases
