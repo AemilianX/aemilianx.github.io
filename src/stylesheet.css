@@ -571,8 +571,6 @@ tr {
   font-size: 14.4px;
   font-family: UbuntuMedium, Arial, Helvetica, sans-serif;
   font-weight: normal;
-  margin: 10px 0px 20px;
-  line-height: 20px;
   text-align: left;
   padding: 11px 0px 21px;
   line-height: 20px;
@@ -580,7 +578,6 @@ tr {
   white-space: nowrap;
   color: var(--bioHeaderColor);
   display: block;
-  width: fit-content;
   margin: 0;
 }
 
