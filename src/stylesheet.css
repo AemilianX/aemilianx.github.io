@@ -693,6 +693,7 @@ tr {
   max-width: 145px;
   line-height: 16px;
   text-decoration: none;
+  padding-top: 2px;
 }
 
 .mediaPadding {
