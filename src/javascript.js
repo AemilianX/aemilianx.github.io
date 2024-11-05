@@ -32,7 +32,7 @@ function dmOnClick() {
 
 function getVersion() {
     'use strict';
-    return 15;
+    return 16;
 }
 
 function $(id) {
