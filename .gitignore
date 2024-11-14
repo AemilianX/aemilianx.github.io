@@ -31,6 +31,6 @@ Thumbs.db
 
 # track these files, if they exist
 !.gitignore
-!.html
-!.css
-!.js
+!*.html
+!*.css
+!*.js
