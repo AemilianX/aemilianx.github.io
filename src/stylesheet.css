@@ -612,7 +612,7 @@ tr {
   line-height: 16px;
   font-family: UbuntuRegular, Arial, Helvetica, sans-serif;
   color: var(--contentTextColor);
-  max-width: fit-content;
+/*  max-width: fit-content;*/
 }
 
 .mediaAnchor {
