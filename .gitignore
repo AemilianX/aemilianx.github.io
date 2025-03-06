@@ -26,10 +26,6 @@ Thumbs.db
 unbio/
 src/
 
-# ignore these files
-minfy.html
-openArchive.cmd
-
 # --------------------------------------------------------
 # BEGIN Explictly Allowed Files (i.e. do NOT ignore these)
 # --------------------------------------------------------
@@ -39,3 +35,8 @@ openArchive.cmd
 !*.html
 !*.css
 !*.js
+
+
+# ignore these files
+minfy.html
+openArchive.cmd
