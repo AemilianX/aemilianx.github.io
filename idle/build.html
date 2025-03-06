@@ -7,11 +7,14 @@ Scripted Version 17 -->
   <head>
     <meta charset="utf-8">
     <title>Aemilian Bio IDLE</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://web.static.mmcdn.com" crossorigin>
     <link rel="icon" type="image/x-icon" href="https://aemilianx.github.io/images/favicon/favicon.ico">
     <link rel="stylesheet" href="https://aemilianx.github.io/css/normalise.css" type="text/css">
     <link rel="stylesheet" href="https://aemilianx.github.io/css/webfonts.css" type="text/css">
     <link rel="stylesheet" href="https://aemilianx.github.io/css/stylesheet.css" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" id="metaDescID" content="Chaturbate Bio for BestyLika">
     <script src="https://aemilianx.github.io/js/javascript.js"></script>
     <script>
       function init() {
@@ -47,6 +50,7 @@ Scripted Version 17 -->
           $('modelRoom').title = `Open ${sUserName}'s Room`;
           let upper = sUserName.toUpperCase();
           $('modelRoom').innerHTML = `${upper} ROOM`;
+          $('metaDescID').setAttribute('content', `Chaturbare Bio for ${sUserName}`)
           upper = sBioName.toUpperCase();
           _('a')[5].innerHTML = `${upper} DRIVE`;
           _('a')[5].title = `Open ${sBioName} Google Drive Folder`;
@@ -124,7 +128,7 @@ Scripted Version 17 -->
             </div>
           </div>
           <div id="tabLinkContainer">
-            <a id="tabLink" href="https://chaturbate.com/roomlogin/bestylika/" target="_blank">Bio</a>
+            <a id="tabLink" href="https://chaturbate.com/bestylika/" target="_blank">Bio</a>
           </div>
         </div>
         <div id="BioContents">

@@ -5,11 +5,8 @@
 ~*
 
 # ignore Editor files
+*.sublime-project
 *.sublime-workspace
-
-# ignore private/secret files
-*.cmd
-*.bat
 
 # ignore OS generated files
 ehthumbs.db
@@ -24,6 +21,14 @@ Thumbs.db
 *.7z
 *.rar
 *.zip
+
+# Ignore these directories
+unbio/
+src/
+
+# ignore these files
+minfy.html
+openArchive.cmd
 
 # --------------------------------------------------------
 # BEGIN Explictly Allowed Files (i.e. do NOT ignore these)
