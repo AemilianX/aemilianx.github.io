@@ -1,4 +1,6 @@
-# Ignore these directories.
+# Ignore these directories
+unbio/
+src/
 
 # ignore all files starting with
 .*
@@ -17,17 +19,13 @@ Thumbs.db
 *.exe
 *.lnk
 
-# ignore packaged files
+# ignore archives
 *.7z
 *.rar
 *.zip
 
-# Ignore these directories
-unbio/
-src/
-
 # --------------------------------------------------------
-# BEGIN Explictly Allowed Files (i.e. do NOT ignore these)
+# Explicitly Allowed Files (i.e. do NOT ignore these)
 # --------------------------------------------------------
 
 # track these files, if they exist
@@ -36,7 +34,10 @@ src/
 !*.css
 !*.js
 
+# --------------------------------------------------------
+# Explicitly Ignore Files
+# --------------------------------------------------------
 
-# ignore these files
+# ignore these specific files
 minfy.html
 openArchive.cmd
