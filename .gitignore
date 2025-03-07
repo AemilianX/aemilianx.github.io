@@ -1,5 +1,6 @@
 # Ignore these directories
-unbio/
+dev/
+proj/
 src/
 
 # ignore all files starting with
