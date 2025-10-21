@@ -1,6 +1,6 @@
 # Ignore these directories
-dev/
-proj/
+bio-proj-latest/
+bio-pre-minfy/
 src/
 
 # ignore all files starting with
@@ -42,4 +42,6 @@ Thumbs.db
 # ignore these specific files
 minfy.html
 index.html.bat
-openArchive.cmd
+archive-project.cmd
+exclude.txt
+fonts.md
