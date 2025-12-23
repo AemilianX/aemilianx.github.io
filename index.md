@@ -1,4 +1,4 @@
-<link rel="icon" type="image/x-icon" href="./images/favicon//favicon.ico">
+<link rel="icon" type="image/x-icon" href="/images/favicon/favicon.ico">
 
 # Welcome to my world
 
