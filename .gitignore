@@ -1,6 +1,8 @@
 # Ignore these directories
+bio
 bio-proj-latest/
 bio-pre-minfy/
+bio	
 src/
 
 # ignore all files starting with
@@ -8,7 +10,6 @@ src/
 ~*
 
 # ignore Editor files
-*.sublime-project
 *.sublime-workspace
 
 # ignore OS generated files
