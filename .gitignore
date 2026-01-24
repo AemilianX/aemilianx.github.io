@@ -10,6 +10,7 @@ src/
 ~*
 
 # ignore Editor files
+*.sublime-project
 *.sublime-workspace
 
 # ignore OS generated files
@@ -46,3 +47,4 @@ index.html.bat
 archive-project.cmd
 exclude.txt
 fonts.md
+Google Drive HTML Image Examples.md
