@@ -1,8 +1,6 @@
 # Ignore these directories
-bio
 bio-proj-latest/
 bio-pre-minfy/
-bio	
 src/
 
 # ignore all files starting with
@@ -47,4 +45,4 @@ index.html.bat
 archive-project.cmd
 exclude.txt
 fonts.md
-Google Drive HTML Image Examples.md
+Google Drive Hot Links.md
