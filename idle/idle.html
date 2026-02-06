@@ -43,7 +43,8 @@
          ***/
         $('header2ID').innerHTML = `${sUserName}'s Bio&nbsp;<sup>Ver.${nProjectVer}</sup>`;
         $('dateID').innerHTML = sDate;
-        $('bioHeaderID').innerHTML = `${sUserName}'s Bio and Free Webcam`;
+        let name = toTitleCase(sUserName);
+        $('bioHeaderID').innerHTML = `${name}'s Bio and Free Webcam`;
         $('bioNameID').innerHTML = sBioName;
         if (sUserName === 'akSolomonKane') {
           const version = getVersion();
@@ -77,7 +78,7 @@
       <div id="banner">
         <nav id="nav">
           <span title="Open Index Of Bio" class="navPadding">
-            <a href="./indexofbio.html" target="_blank" class="anchorUnderLineTop">Home</a>
+            <a href="./indexofbio.html" class="anchorUnderLineTop">Home</a>
           </span>
           <span title="Open the Chaturbate Website" class="navPadding">
             <a href="https://chaturbate.com/" target="_blank" id="modelRoom" class="anchorUnderLineTop">Chaturbate</a>

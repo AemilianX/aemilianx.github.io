@@ -43,7 +43,8 @@
          ***/
         $('header2ID').innerHTML = `${sUserName}'s Bio&nbsp;<sup>Ver.${nProjectVer}</sup>`;
         $('dateID').innerHTML = sDate;
-        $('bioHeaderID').innerHTML = `${sUserName}'s Bio and Free Webcam`;
+        let name = toTitleCase(sUserName);
+        $('bioHeaderID').innerHTML = `${name}'s Bio and Free Webcam`;
         $('bioNameID').innerHTML = sBioName;
         if (sUserName === 'akSolomonKane') {
           const version = getVersion();
@@ -64,7 +65,7 @@
         }
       }
 
-      function getVersion() { return 17; }
+      function getVersion() { return 18; }
     </script>
   </head>
   <body onload="init()">
@@ -78,8 +79,8 @@
       </div>
       <div id="banner">
         <nav id="nav">
-          <span title="Open Index Of Bio" class="navPadding">
-            <a href="https://drive.google.com/" target="_blank" class="anchorUnderLineTop">Home</a>
+          <span title="Open Index Of Bio" class="navPadding disable">
+            <a href="#top" class="anchorUnderLineTop">Home</a>
           </span>
           <span title="Open the Chaturbate Website" class="navPadding">
             <a href="https://chaturbate.com/" target="_blank" id="modelRoom" class="anchorUnderLineTop">Chaturbate</a>
@@ -93,10 +94,10 @@
           <span title="Open HTML Beautifier" class="navPadding">
             <a href="https://codebeautify.org/htmlviewer#" target="_blank" class="anchorUnderLineTop">Minifier</a>
           </span>
-          <span title="Open Model Drive Folder" class="navPadding">
+          <span title="Open Model Drive Folder" class="navPadding disable">
             <a href="https://drive.google.com/" target="_blank" class="anchorUnderLineTop">Model Drive</a>
           </span>
-          <span title="Open Model Share Link" class="navPadding">
+          <span title="Open Model Share Link" class="navPadding disable">
             <a href="https://onedrive.live.com/" target="_blank" class="anchorUnderLineTop">Share Link</a>
           </span>
         </nav>
