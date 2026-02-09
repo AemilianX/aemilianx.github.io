@@ -27,7 +27,7 @@
         }
         /** =====================================================================
          *
-         * Edit to Project Requirements
+         * Edit Requirements
          *
          ***/
         sUserName = 'akSolomonKane'; // the model user name
@@ -37,14 +37,14 @@
         const sOnlineDrive = 'https://drive.google.com/drive/'; // models online drive folder link
         const sShareLink = 'https://onedrive.live.com/'; // models online share link
         /**
-         * Do not edit any further
+         * Do not edit further
          *
          * =====================================================================
          ***/
         $('header2ID').innerHTML = `${sUserName}'s Bio&nbsp;<sup>Ver.${nProjectVer}</sup>`;
         $('dateID').innerHTML = sDate;
-        let name = toTitleCase(sUserName);
-        $('bioHeaderID').innerHTML = `${name}'s Bio and Free Webcam`;
+        const sTitlecase = toTitleCase(sUserName);
+        $('bioHeaderID').innerHTML = `${sTitlecase}'s Bio and Free Webcam`;
         $('bioNameID').innerHTML = sBioName;
         if (sUserName === 'akSolomonKane') {
           const version = getVersion();
@@ -53,7 +53,7 @@
           document.title = `${sUserName} Bio Ver ${nProjectVer}`;
           $('modelRoom').href = `https://chaturbate.com/${sUserName}/`;
           $('modelRoom').title = `Open ${sUserName}'s Room`;
-          let upper = sUserName.toUpperCase();
+          const upper = sUserName.toUpperCase();
           $('modelRoom').innerHTML = `${upper} ROOM`;
           $('metaDescID').setAttribute('content', `Chaturbate Bio for ${sUserName}`)
           upper = sBioName.toUpperCase();
