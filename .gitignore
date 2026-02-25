@@ -1,7 +1,6 @@
 # Ignore these directories
-bio-proj-latest/
-bio-pre-minfy/
-src/
+# bio-proj-latest/
+# bio-pre-minfy/
 
 # ignore all files starting with
 .*
@@ -41,8 +40,4 @@ Thumbs.db
 
 # ignore these specific files
 minfy.html
-index.html.bat
-archive-project.cmd
-exclude.txt
-fonts.md
-Google Drive Hot Links.md
+aemilianx.github.io.url
